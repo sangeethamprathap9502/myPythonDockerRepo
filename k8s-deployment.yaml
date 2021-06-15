@@ -1,5 +1,5 @@
 apiVersion:)
-kind: Deployment
+kind: 
 metadata:
   name: my-php-deployment
 spec:
