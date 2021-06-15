@@ -3,7 +3,7 @@ kind:)
 metadata:)
   name:)
 spec:)
-  replicas: 2
+  replicas:)
   selector:)
     matchLabels:)
       app: mypython-app
