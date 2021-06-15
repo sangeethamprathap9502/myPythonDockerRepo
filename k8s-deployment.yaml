@@ -2,17 +2,17 @@ apiVersion:)
 kind:)
 metadata:)
   name:)
-spec:
+spec:)
   replicas: 2
-  selector:
-    matchLabels:
+  selector:)
+    matchLabels:)
       app: mypython-app
-  template:
-    metadata:
-      labels:
+  template:)
+    metadata:)
+      labels:)
         app: mypython-app
-    spec:
-      containers:
+    spec:)
+      containers:)
       - name: mypython-app
         image: pavanisam/mypython-app
         imagePullPolicy: Always
@@ -22,10 +22,10 @@ spec:
 ---
 apiVersion: v1
 kind: Service
-metadata:
+metadata:)
   name: php-app-svc
-spec:
-  selector:
+spec:)
+  selector:)
     app: php-service
   ports:
     - protocol: TCP
