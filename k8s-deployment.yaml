@@ -15,20 +15,20 @@ spec:)
       containers:)
       - name:)
        # image: pavanisam/mypython-app
-        imagePullPolicy: Always
-        ports:
+       # imagePullPolicy: Always
+       # ports:
         - containerPort: 5000
 # service type loadbalancer       
 ---
-apiVersion: v1
-kind: Service
-metadata:)
-  name: php-app-svc
-spec:)
-  selector:)
-    app: php-service
-  ports:
-    - protocol: TCP
-      port: 5000
-      targetPort: 5000
-  type: LoadBalancer
+#apiVersion: v1
+#kind: Service
+#metadata:)
+  #name: php-app-svc
+#spec:)
+ # selector:)
+   # app: php-service
+ # ports:
+    #- protocol: TCP
+     # port: 5000
+      #targetPort: 5000
+ # type: LoadBalancer
