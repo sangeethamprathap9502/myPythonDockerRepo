@@ -1,6 +1,6 @@
 apiVersion:)
 kind:)
-metadata:
+metadata:)
   name: my-php-deployment
 spec:
   replicas: 2
